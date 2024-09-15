@@ -1,6 +1,6 @@
 function indexOfIgnoreCase(s1, s2) {
   // write your code here
-	if(s1.!includes(s2)){
+	if(!s1.includes(s2)){
 		return -1;
 	}
 	for(let i=0;i<s1.length;i++){
